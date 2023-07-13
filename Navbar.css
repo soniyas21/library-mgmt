@@ -1,0 +1,50 @@
+.navbar {
+  background-color: transparent;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li button {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #EFEADD;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li button:hover {
+  background-color: #EFEADD;
+  color: black;
+}
+
+.navbar button {
+  background-color: transparent;
+  border: 2px solid #EFEADD;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #EFEADD;
+  color: black;
+}

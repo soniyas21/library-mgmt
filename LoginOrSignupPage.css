@@ -1,0 +1,171 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('llb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: content-box;
+  background-clip: border-box;
+  overflow:auto
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+h1 {
+  text-align: center;
+}
+.image {
+  position: absolute;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+  z-index: 0;
+}
+
+.background-overlay {
+  position: absolute;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  background-color: transparent;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  background-image: url('bk.jpg');
+  background-size: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-button,
+.signup-button,
+.mobile-verify-button,
+.external-login-button {
+  background-color: #ADD8E6;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover,
+.signup-button:hover,
+.mobile-verify-button:hover,
+.external-login-button:hover {
+  background-color: #0056b3;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h3 {
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: sky blue;
+  color:black
+}
+
+.mobile-verify-button,
+.login-button {
+  margin-top: 10px;
+}
+
+.external-logins {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.external-login-button {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.external-login-button:hover {
+  background-color: gray;
+}
+
+.external-login-icon {
+  margin-right: 8px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: 0;
+}
